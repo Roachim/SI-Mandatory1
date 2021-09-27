@@ -1,13 +1,14 @@
 #Receieve Json, Send CSV
 
-from bottle import run, get, post, requests
+from bottle import route, run, get, post, requests
 
 import requests
 
 #################################
-@post("/post")
+@route("/JSON")
 def do():
     request = requests.post('http//:127.0.0.1:1111')
+    return "Thank you"
 
 
 

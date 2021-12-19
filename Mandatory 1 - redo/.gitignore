@@ -1,0 +1,11 @@
+/server2/venv/
+server2/lib/
+server1/lib/
+.server1/Scripts/
+.server2/Scripts/
+/server1/venv/
+venv/
+.venv
+.env
+env/
+.vscode/
